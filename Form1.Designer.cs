@@ -36,10 +36,10 @@ namespace Pastelaria
             // 
             // progressBar1
             // 
-            this.progressBar1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.progressBar1.Location = new System.Drawing.Point(52, 372);
+            this.progressBar1.ForeColor = System.Drawing.Color.DarkSeaGreen;
+            this.progressBar1.Location = new System.Drawing.Point(-1, 546);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(686, 51);
+            this.progressBar1.Size = new System.Drawing.Size(885, 24);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 0;
             // 
@@ -51,7 +51,9 @@ namespace Pastelaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Pastelaria.Properties.Resources.bg3;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(883, 569);
             this.Controls.Add(this.progressBar1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
